@@ -96,8 +96,9 @@ body {
 }
 
 .social a {
-    font-size: 4.5em;
+    font-size: 4em;
     padding: 3rem;
+    transition: transform .2s;
 }
 
 .fa-facebook {
@@ -118,6 +119,31 @@ body {
 
 .fa-youtube {
     color: #bb0000;
+}
+
+.fa-facebook:hover {
+    color: #4871c9;
+    transform: scale(1.1);
+}
+
+.fa-twitter:hover {
+    color: #5db8da;
+    transform: scale(1.1);
+}
+
+.fa-google-plus-g:hover {
+    color: #e47e71;
+    transform: scale(1.1);
+}
+
+.fa-instagram:hover {
+    color: #75b3e6;
+    transform: scale(1.1);
+}
+
+.fa-youtube:hover {
+    color: #e95050;
+    transform: scale(1.1);
 }
 
 
